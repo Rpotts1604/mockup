@@ -51,3 +51,17 @@ for (i = 0; i < feedback.length; i++) {
     }
   });
 }
+
+var servicePanel = document.getElementsByClassName("service-panel-button");
+
+for (i = 0; i < servicePanel.length; i++) {
+  servicePanel[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.height){
+      content.style.height = null;
+    } else {
+      content.style.height = content.scrollHeight + "px";
+    }
+  });
+}
