@@ -219,6 +219,7 @@ nav #check{
     margin-bottom: 20px;
     height: max-content;
     position: relative;
+    top: 80px;
 }
 
 .services-panel{
@@ -290,6 +291,68 @@ nav #check{
     overflow: hidden;
     transition: height 0.2s ease-out;
     margin-top: 30px;
+}
+
+.about-us-panel{
+    height: max-content;
+    background-color: whitesmoke;
+    flex-basis: 40%;
+    border: #80CCCC solid;
+    border-color: #80CCCC;
+}
+
+.about-us-panel-button{
+    background-color: #578a8a;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 18px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 20px;
+}
+
+.about-us-panel-button:hover{
+    background-color: #3b5e5e;
+    transition: .5s;
+}
+
+.about-us-panel-button:active{
+    background-color: #578a8a;
+    transition: .2s;
+}
+
+.about-us-panel img{
+    max-width: 80%;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px;
+}
+
+.about-us-panel-content{
+    width: 100%;
+    background-color: whitesmoke;
+    font-weight: 400;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease-out;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about-us-desc{
+    position: relative;
+    font-size: 1.4vw;
+    padding: 10px;
 }
 
 .contact-info{
@@ -474,6 +537,27 @@ nav #check{
     .service-desc{
         position: relative;
         font-size: 2.9vw;
+    }
+
+    .about-us-panel{
+        height: max-content;
+        background-color: whitesmoke;
+        flex-basis: 60vw;
+    }
+
+    .about-us-panel img{
+        max-width: 50%;
+        position: relative;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 20px;
+    }
+
+    .about-us-desc{
+        position: relative;
+        font-size: 2vw;
+        padding: 10px;
     }
 
 }

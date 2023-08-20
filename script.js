@@ -65,3 +65,17 @@ for (i = 0; i < servicePanel.length; i++) {
     }
   });
 }
+
+var aboutPanel = document.getElementsByClassName("about-us-panel-button");
+
+for (i = 0; i < aboutPanel.length; i++) {
+  aboutPanel[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.height){
+      content.style.height = null;
+    } else {
+      content.style.height = content.scrollHeight + "px";
+    }
+  });
+}
