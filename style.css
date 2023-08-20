@@ -45,81 +45,6 @@ nav {
     position: relative;
 }
 
-.about-us-text-p1{
-    text-align: left;
-    margin-right: 30%;
-    padding: 40px 20px 40px 20px;
-    padding: 20px;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.text-image-logo {
-    width: 250px;
-    position: absolute;
-    top: 50%;
-    left: 78%;
-    transform: translate(-22%,-50%);
-
-}
-
-.text-image-customer{
-    width: 200px;
-    position: absolute;
-    top: 50%;
-    left: 78%;
-    transform: translate(-22%,-50%);
-    padding-top: 20px;
-}
-
-.text-image-phone{
-    width: 225px;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-80%,-50%);
-}
-
-.text-image-technician{
-    width: 150px;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-80%,-50%);
-}
-
-
-.about-us-text-p2{
-    text-align: right;
-    margin-left: 30%;
-    padding: 40px 20px 40px 20px;
-    padding: 20px;
-    border-style: solid;
-    border-width: 1px;
-
-}
-
-.about-us-text-p3{
-    text-align: left;
-    margin-right: 30%;
-    padding: 40px 20px 40px 20px;
-    padding: 20px;
-    border-style: solid;
-    border-width: 1px;
-    
-}
-
-.about-us-text-p4{
-    text-align: right;
-    margin-left: 30%;
-    padding: 40px 20px 40px 20px;
-    padding: 20px;
-    border-style: solid;
-    border-width: 1px;
-    
-}
-
-
 .about-us-content{
     width: 100%;
     background-color: whitesmoke;
@@ -175,41 +100,7 @@ nav #check{
 .services-text{
     margin: 20px;
 }
-.services-bottom-text{
-    margin: 20px;
-}
 
-.services-list{
-    padding-left: 80px;
-    margin-right: 40%;
-    line-height: 30px;
-}
-.services-sub-li{
-    margin-left: 60px;
-}
-
-.services-image-1{
-    position: absolute;
-    width: 20vw;
-    top: 10%;
-    left: 65vw;
-    transform: translate(0,-50%);
-}
-
-.services-image-2{
-    position: absolute;
-    width: 20vw;
-    top: 40%;
-    left: 65vw;
-    transform: translate(0,-50%);
-}
-.services-image-3{
-    position: absolute;
-    width: 20vw;
-    top: 75%;
-    left: 65vw;
-    transform: translate(0,-50%);
-}
 
 .panel-container{
     display: flex;
@@ -388,11 +279,6 @@ nav #check{
         display: block;
     }
 
-    .services-container{
-        position: relative;
-        text-align: center
-    }
-
     nav ul{
         position: fixed;
         width: 100%;
@@ -420,92 +306,6 @@ nav #check{
     }
     nav #check:checked ~ul{
         left: 0;    
-    }
-
-    .text-image-logo {
-        width: 50%;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%);
-        padding-top: 25px;
-    }
-
-    .text-image-customer{
-        width: 50%;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%);
-        padding-top: 25px;
-    }
-    
-    .text-image-phone{
-        width: 50%;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%);
-    }
-
-    .text-image-technician{
-        width: 50%;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%);
-        padding-top: 25px;
-    }
-
-    .about-us-text-p1{
-        text-align: center;
-        padding: 20px;
-        margin: 0;
-    }
-
-
-    .about-us-text-p2{
-        text-align: center;
-        padding: 20px;
-        margin: 0;
-    }
-    .about-us-text-p3{
-        text-align: center;
-        padding: 20px;
-        margin: 0;
-    }
-    .about-us-text-p4{
-        text-align: center;
-        padding: 20px;
-        margin: 0;
-    }
-    .services-bottom-text{
-        margin: 20px;
-        padding-bottom: 5%;
-    }
-    .services-image-1{
-        position: relative;
-        width: 70%;
-        left: 50%;
-        transform: translate(-50%,-10%);
-    }
-
-    .services-image-2{
-        display: none;
-    }
-    .services-image-3{
-        display: none;
-    }
-
-    .services-list{
-        padding-left: 80px;
-        margin-right: 0%;
-        line-height: 30px;
-    }
-
-    .services-sub-li{
-        margin-left: 60px;
-        margin-right: 15%;
     }
 
     .panel-container{
@@ -565,7 +365,7 @@ nav #check{
 .bg{
     background-image: url(images/PCB-bg.jpg);
     position: fixed;
-    height: 100vh;
+    height: max-content;
     width: 100vw;
     top: 0;
     z-index: -1;
@@ -594,7 +394,6 @@ nav #check{
     color: whitesmoke;
     line-height: 60px;
 }
-
 
 .page-desc-container{
     padding: 40px;
@@ -625,9 +424,6 @@ nav #check{
     background-color: #578a8a;
     transition: .2s;
 }
-
-
-
 
 .services-button {
     background-color: #578a8a;
@@ -668,12 +464,6 @@ nav #check{
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-
-.servives-text{
-    padding: 20px;
-}
-
-
 
 .contact-button {
     background-color: #578a8a;
