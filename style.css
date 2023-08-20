@@ -27,6 +27,21 @@ nav {
     padding-left: 30px;
 }
 
+
+.slogan-main{
+    font-size: 4vw;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    color: whitesmoke;
+    line-height: 5vw;
+    position: relative;
+    top: 50px;
+}
+.slogan-container{
+    padding: 20px;
+}
+
 .descriptor-page-contnet{
     width: 100%;
     background-color: whitesmoke;
@@ -279,6 +294,17 @@ nav #check{
         display: block;
     }
 
+    .slogan-main{
+        font-size: 6vw;
+        font-weight: 500;
+        text-align: center;
+        padding: 50px 0 50px 0;
+        color: whitesmoke;
+        line-height: 7vw;
+        position: relative;
+        top: 50px;
+    }
+
     nav ul{
         position: fixed;
         width: 100%;
@@ -365,25 +391,12 @@ nav #check{
 .bg{
     background-image: url(images/PCB-bg.jpg);
     position: fixed;
-    height: max-content;
+    height: 100vh;
     width: 100vw;
     top: 0;
     z-index: -1;
 }
 
-.slogan-main{
-    font-size: 40px;
-    font-weight: 500;
-    text-align: center;
-    padding: 50px 0 50px 0;
-    color: whitesmoke;
-    line-height: 60px;
-    position: relative;
-    top: 50px;
-}
-.slogan-container{
-    padding: 20px;
-}
 
 .page-desc{
     font-size: 40px;
